@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap");
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1010%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='%231e3266'%3e%3c/rect%3e%3cpath d='M1952 1080L0 1080 L0 665.01Q4.08 573.09%2c 96 577.16Q138.64 523.8%2c 192 566.44Q307.54 521.98%2c 352 637.52Q408.24 533.76%2c 512 590Q535.23 517.23%2c 608 540.46Q661.36 497.82%2c 704 551.17Q825.7 512.87%2c 864 634.56Q974.65 585.21%2c 1024 695.87Q1049.08 624.94%2c 1120 650.02Q1145.34 579.36%2c 1216 604.7Q1241.01 533.71%2c 1312 558.72Q1375.08 525.8%2c 1408 588.88Q1516.72 537.6%2c 1568 646.32Q1631.98 614.3%2c 1664 678.28Q1670.92 589.2%2c 1760 596.12Q1786.14 526.26%2c 1856 552.4Q1910.16 510.57%2c 1952 564.73z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M2016 1080L0 1080 L0 699.58Q70.08 673.66%2c 96 743.74Q113.01 664.75%2c 192 681.76Q251.2 644.96%2c 288 704.16Q347.88 668.04%2c 384 727.93Q406.69 654.62%2c 480 677.3Q567.09 604.39%2c 640 691.48Q803.87 695.35%2c 800 859.21Q789.28 688.49%2c 960 677.77Q1110.76 668.53%2c 1120 819.3Q1188.88 728.17%2c 1280 797.05Q1302.96 724.01%2c 1376 746.97Q1471.09 682.06%2c 1536 777.14Q1624.26 705.4%2c 1696 793.66Q1756.11 693.76%2c 1856 753.87Q1962.28 700.15%2c 2016 806.43z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M2080 1080L0 1080 L0 893.22Q101.67 834.89%2c 160 936.56Q206.84 823.39%2c 320 870.23Q373.39 763.62%2c 480 817.01Q603.42 780.43%2c 640 903.85Q755.88 859.73%2c 800 975.61Q829.98 909.59%2c 896 939.56Q970.47 918.03%2c 992 992.5Q1002.99 907.49%2c 1088 918.47Q1124.7 795.17%2c 1248 831.87Q1307.84 795.71%2c 1344 855.55Q1458.31 873.86%2c 1440 988.17Q1406.79 858.96%2c 1536 825.75Q1606 799.75%2c 1632 869.75Q1652.78 794.53%2c 1728 815.31Q1800.89 792.2%2c 1824 865.1Q1906.76 851.86%2c 1920 934.61Q1946.9 801.51%2c 2080 828.42z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M2048 1080L0 1080 L0 1131.95Q71.13 1043.08%2c 160 1114.21Q213.78 1007.99%2c 320 1061.77Q363.3 945.07%2c 480 988.37Q517.95 930.32%2c 576 968.26Q653.6 949.86%2c 672 1027.46Q742.13 937.59%2c 832 1007.71Q885.66 901.38%2c 992 955.04Q1112.16 915.2%2c 1152 1035.37Q1225.03 948.39%2c 1312 1021.42Q1423.67 973.09%2c 1472 1084.76Q1498.89 951.65%2c 1632 978.54Q1690.66 941.2%2c 1728 999.86Q1824.58 936.44%2c 1888 1033.02Q1929.47 914.49%2c 2048 955.95z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1010'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.wrapper {
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+}
+.wrapper h1 {
+  font-size: 3em;
+  padding-top: 7%;
+  padding-bottom: 2%;
+  display: inline-block;
+  margin: 0 0.5rem;
+  -webkit-animation: bounce;
+          animation: bounce;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.calculator {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  width: 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.calculator #display {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2em;
+  background: #356CB1;
+  border: 2px solid white;
+  width: 48%;
+  margin-bottom: 5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  padding-left: 1%;
+  border-radius: 6px;
+  height: 36px;
+  box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgba(0, 0, 0, 0.07), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05);
+}
+
+button {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #3b82f6;
+  background-color: #f3f7fe;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 2em;
+  font-size: 2em;
+  transition: 0.3s;
+  margin: 1%;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px rgba(59, 131, 246, 0.3725490196);
+}/*# sourceMappingURL=style.css.map */

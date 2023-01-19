@@ -3,7 +3,7 @@ let num2 = '';
 let operator = '';
 
 function calculator(val) {
-  var display = document.getElementById("display");
+  let display = document.getElementById("display");
 
   switch (val) {
     case '+':
